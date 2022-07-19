@@ -20,7 +20,7 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: './index.html',
-        title: 'Jate Text Editor'
+        title: 'J.A.T.E'
       }),
 
       new InjectManifest({
@@ -31,7 +31,7 @@ module.exports = () => {
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: 'Jate Text Editor',
+        name: 'J.A.T.E',
         short_name: 'Editor',
         description: 'This is a text editor!',
         background_color: '#225ca3',
@@ -61,7 +61,7 @@ module.exports = () => {
             loader: 'babel-loader',
             options: {
             presets: ['@babel/preset-env'],
-            plugins: ['@babel/plugin-proposal-objectrest-spread', '@babel/transform-runtime']
+            plugins: ['@babel/plugin-proposal-object-rest-spread', '@babel/transform-runtime']
           }
           }
           
