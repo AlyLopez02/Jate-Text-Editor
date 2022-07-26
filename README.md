@@ -17,4 +17,4 @@ Type `npm start` into the same terminal you used for the installation. Then, go 
 ## Deployed Application
 Here is the link to the deployed application:
 
-<a href=""></a>
+<a href="https://jate-text-editor-01.herokuapp.com/">https://jate-text-editor-01.herokuapp.com/</a>
